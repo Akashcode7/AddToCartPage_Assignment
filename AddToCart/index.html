@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add to Cart Page</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="head">
+        <h1>YAY! It's BOGO</h1>
+    </div>
+
+<div class="container">
+    <div class="item">
+        
+        <div class="price">
+            <div>
+                <input type="radio" name="quantity" value="1">
+                1 unit - 10% off<br>
+                Standard price: $10.00 USD
+                
+            </div>
+            <div>$10.00 USD</div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="price">
+            <div>
+                <input type="radio" name="quantity" value="2">
+                2 units - 20% off<br>
+                <div class="option">
+                    Size:
+                    <select>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                    </select>
+                </div>
+                <div class="option">
+                    Color:
+                    <select>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                    </select>
+                </div>
+                Most Popular
+            </div>
+            <div>$18.00 USD</div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="price">
+            <div>
+                <input type="radio" name="quantity" value="3">
+                3 units - 30% off
+            </div>
+            <div>$24.00 USD</div>
+        </div>
+    </div>
+    <div class="total">
+        Total: $18.00 USD
+    </div>
+    <div class="free">
+        Free Delivery <br>
+        
+    </div>
+    <button class="button" onclick="addToCart(3)"> + Add to Cart</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
